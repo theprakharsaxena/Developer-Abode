@@ -46,7 +46,7 @@ const About = () => {
           <h1 className="text-blue-500 text-3xl font-mono font-bold underline underline-offset-4 mb-5">We Build IT That Build Your Business</h1>
           <p className="text-white text-xl mb-16">
             At Developer Abode, we specialize in custom software development,
-            transforming our clients' digital aspirations into tangible
+            transforming our clients digital aspirations into tangible
             solutions. We maintain close communication with users during the
             development process to stay aligned with the desired outcome. Our
             commitment is to deliver exceptional software for each client. As a
