@@ -65,6 +65,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-blue-600 text-black border-black bg-white hover:bg-black"
             >
               <BsLinkedin />
@@ -72,6 +73,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-blue-500 text-black border-black bg-white hover:bg-black"
             >
               <BsFacebook />
@@ -79,6 +81,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-pink-500 text-black border-black bg-white hover:bg-black"
             >
               <BsInstagram />
@@ -86,6 +89,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-blue-400 text-black border-black bg-white hover:bg-black"
             >
               <BsTwitter />
