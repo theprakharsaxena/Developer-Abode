@@ -9,7 +9,6 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="shortcut icon" href="/favicon/logo.ico" />
-        <script defer src="/_vercel/insights/script.js"></script>
       </Head>
       <Navbar />
       <Component {...pageProps} />
