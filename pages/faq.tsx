@@ -62,7 +62,7 @@ const Faq = () => {
       />
       {/* Box 1 */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center justify-center h-1/2 py-24 border-2 bg-blue-600 bg-fixed bg-center px-7 sm:px-20 md:px-10 lg:px-20 xl:px-30">
-        <Image src="/faq1.jpg" alt="faq" height={500} width={500} />
+        <Image src="/faq1.jpg" alt="faq" height={600} width={600} />
         <div className="text-left font-mono lg:col-span-2">
           <h3 className="font-bold text-4xl sm:text-5xl md:text-6xl">F A Q</h3>
           <h1 className="text-white text-xl sm:text-2xl md:text-xl lg:text-2xl xl:text-3xl mt-3 mb-7 font-semibold">

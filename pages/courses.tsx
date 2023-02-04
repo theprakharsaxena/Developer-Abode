@@ -79,7 +79,7 @@ const Courses = () => {
         </h2>
       </div>
       {/* Grid 1 */}
-      <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1  xl:px-32 lg:px-20 sm:px-10 page3">
+      <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1 xl:px-32 lg:px-20 md:px-10 page3">
         <div className="flex flex-col">
           {courses1.map(({ title, image, description }, id) => {
             return (
@@ -87,14 +87,14 @@ const Courses = () => {
                 <Image
                   src={image}
                   alt="Javascript"
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
                 />
                 <div className="lg:col-span-2 xl:col-span-3">
                   <h1 className="text-3xl pb-3 font-mono text-blue-500 font-bold">
                     {title} Developer
                   </h1>
-                  <p className="text-sm sm:text-base text-white pb-3">
+                  <p className="text-sm md:text-base text-white pb-3">
                     {description}
                   </p>
                   <Link

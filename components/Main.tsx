@@ -183,11 +183,11 @@ const Main = () => {
       </div>
       {/* Grid 3 */}
       <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1 xl:px-32 lg:px-20 md:px-10 page1">
-        <div className="flex flex-col lg:flex-row mx-20">
+        <div className="flex flex-col lg:flex-row mx-20 sm:mx-0">
           {Main3.map(({ title, image, description }, id) => {
             return (
               <div
-                className="p-10 my-10 bg-black border-2 border-blue-500 rounded-xl"
+                className="p-10 sm:m-10 my-10 bg-black border-2 border-blue-500 rounded-xl"
                 key={id}
               >
                 <Image src={image} alt="community" width={40} height={40} />
