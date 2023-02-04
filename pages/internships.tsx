@@ -63,12 +63,12 @@ const Internships = () => {
         </h2>
       </div>
       {/* Grid 1 */}
-      <div className="flex flex-col text-left items-center justify-center bg-fixed bg-center bg-cover page2 py-32 px-10 sm:px-5 md:px-10 lg:px-7 xl:px-8 2xl:px-20">
+      <div className="flex flex-col text-left items-center justify-center bg-fixed bg-center bg-cover page2 py-32 px-1 sm:px-10 lg:px-7 xl:px-8 2xl:px-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {Internships1.map(({ title, image }, id) => {
             return (
               <div
-                className="m-10 sm:m-5 2xl:m-10 xl:m-8 lg:m-7 md:m-10 sm:p-9 md:p-10 p-10 bg-black border-2 border-blue-500 rounded-xl"
+                className="m-5 sm:m-10 2xl:m-10 xl:m-8 lg:m-7 md:m-10 sm:p-9 md:p-10 p-10 bg-black border-2 border-blue-500 rounded-xl"
                 key={id}
               >
                 <Link

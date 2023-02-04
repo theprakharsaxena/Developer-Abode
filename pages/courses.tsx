@@ -79,7 +79,7 @@ const Courses = () => {
         </h2>
       </div>
       {/* Grid 1 */}
-      <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1 xl:px-32 lg:px-20 md:px-10 page3">
+      <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1  xl:px-32 lg:px-20 sm:px-10 page3">
         <div className="flex flex-col">
           {courses1.map(({ title, image, description }, id) => {
             return (
