@@ -86,12 +86,12 @@ const Navbar = () => {
           {/* Mobile Button */}
           <div
             onClick={handleNav}
-            className="block sm:hidden z-10 cursor-pointer hover:text-blue-500"
+            className="block sm:hidden z-10 cursor-pointer hover:text-blue-500 mr-1"
           >
             {nav ? (
               <AiOutlineClose size={20} className="hover:text-blue-500" />
             ) : (
-              <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+              <AiOutlineMenu size={20} style={{ color: `${textColor}` }}/>
             )}
           </div>
           {/* Mobile Menu */}

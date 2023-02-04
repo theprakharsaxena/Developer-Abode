@@ -37,7 +37,7 @@ const footer = () => {
   return (
     <>
       {/* Footer top */}
-      <div className="grid grid-cols-1 xl:grid-cols-4 gap-10 justify-center h-1/3 pt-10 text-center pb-10 bg-black bg-fixed bg-center px-10 xl:px-20 border-t-2">
+      <div className="grid grid-cols-1 xl:grid-cols-4 gap-5 sm:gap-10 justify-center h-1/3 pt-5 sm:pt-10 text-center pb-10 bg-black bg-fixed bg-center px-5 sm:px-10 xl:px-20 border-t-2">
         <div className="xl:col-span-3">
           <h2 className="text-2xl font-bold text-blue-500 underline underline-offset-2 mb-4">
             Quick Links
@@ -47,14 +47,14 @@ const footer = () => {
               return (
                 <li
                   key={id}
-                  className="hover:text-blue-500 hover:underline hover:underline-offset-8"
+                  className="hover:text-blue-500 hover:underline hover:underline-offset-8 text-sm sm:text-base"
                 >
                   <Link href={link}>{title}</Link>
                 </li>
               );
             })}
           </ul>
-          <ul className="text-white flex flex-row space-x-10 mt-8 justify-center items-center">
+          <ul className="text-white flex flex-row space-x-5 sm:space-x-10 mt-8 justify-center items-center">
             <li className="border p-2 rounded-lg border-blue-600 text-blue-600 hover:text-white hover:border-white">
               <BsLinkedin />
             </li>
@@ -69,7 +69,7 @@ const footer = () => {
             </li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <h2 className="text-2xl font-bold text-blue-500 underline underline-offset-2 mb-4">
             Contact Us
           </h2>
@@ -79,7 +79,7 @@ const footer = () => {
                 <FiMail className="text-2xl" />
                 <p>Mail -</p>
               </div>
-              <div className="col-span-3">
+              <div className="col-span-3 text-sm sm:text-base">
                 <p>info@developerabode.com</p>
                 <p>help@developerabode.com</p>
               </div>
@@ -89,7 +89,7 @@ const footer = () => {
                 <IoLocationSharp className="text-2xl" />
                 <p>Location -</p>
               </div>
-              <div className="col-span-3">
+              <div className="col-span-3 text-sm sm:text-base">
                 <p>Bareilly, Uttar Pradesh, India - 243003</p>
               </div>
             </li>
@@ -98,7 +98,7 @@ const footer = () => {
       </div>
       {/* Footer bottom */}
       <div className="bg-black border-t-[1px] text-center py-5">
-        <h4 className="text-white">
+        <h4 className="text-white text-xs sm:text-sm md:text-base">
           &copy; {year} Developer Abode. All Rights Reserved
         </h4>
       </div>

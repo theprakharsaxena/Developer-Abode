@@ -69,11 +69,11 @@ const Courses = () => {
         image={"page3"}
       />
       {/* Box 1 */}
-      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 border-2 bg-blue-600 bg-fixed bg-center px-10 md:px-20">
-        <h1 className="text-4xl font-mono mb-5 text-white underline underline-offset-8">
+      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 border-2 bg-blue-600 bg-fixed bg-center px-5 sm:px-10 md:px-20">
+        <h1 className="text-3xl sm:text-4xl font-mono mb-5 text-white underline underline-offset-4">
           COURSES WE OFFER
         </h1>
-        <h2 className="text-3xl font-serif">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-serif">
           Courses can enhance your professional development and intellectual
           growth.
         </h2>
@@ -83,7 +83,7 @@ const Courses = () => {
         <div className="flex flex-col">
           {courses1.map(({ title, image, description }, id) => {
             return (
-              <div className="m-10 p-10 bg-black border-2 border-blue-500 rounded-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7" key={id}>
+              <div className="m-5 sm:m-10 p-10 bg-black border-2 border-blue-500 rounded-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7" key={id}>
                 <Image
                   src={image}
                   alt="Javascript"
@@ -94,14 +94,14 @@ const Courses = () => {
                   <h1 className="text-3xl pb-3 font-mono text-blue-500 font-bold">
                     {title} Developer
                   </h1>
-                  <p className="text-base text-white pb-3">
+                  <p className="text-sm sm:text-base text-white pb-3">
                     {description}
                   </p>
                   <Link
                     className="underline underline-offset-8 text-white hover:text-blue-500 font-serif"
                     href="/"
                   >
-                    Coming Soon
+                    Coming Soon...
                   </Link>
                 </div>
               </div>

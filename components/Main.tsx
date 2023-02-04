@@ -80,9 +80,9 @@ const Main = () => {
     <>
     
       {/* Box 1 */}
-      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 border-2 bg-blue-600 bg-fixed bg-center px-10 md:px-20">
-        <h1 className="text-4xl pb-3 font-bold">WHO ARE WE!</h1>
-        <p className="font-serif text-lg text-white">
+      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 border-2 bg-blue-600 bg-fixed bg-center px-5 sm:px-10 md:px-20">
+        <h1 className="text-3xl sm:text-4xl pb-3 font-bold">WHO ARE WE!</h1>
+        <p className="font-serif text-sm sm:text-base md:text-lg text-white">
           The purpose of Developer Abode is to facilitate the development of
           personal and professional skills in the field of technology for the
           benefit of others, and to create a structure in which students can
@@ -94,14 +94,14 @@ const Main = () => {
       </div>
       {/* Grid 1 */}
       <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1 xl:px-32 lg:px-20 md:px-10 page1">
-        <h1 className="pb-5 sm:text-6xl text-5xl font-extrabold font-mono text-white">
+        <h1 className="pb-5 sm:text-6xl text-4xl font-extrabold font-mono text-white">
           WHAT WE OFFER!
         </h1>
         <div className="flex flex-col lg:flex-row">
           {Main1.map(({ title, image, description }, id) => {
             return (
               <div
-                className="m-10 p-10 bg-black border-2 border-blue-500 rounded-xl"
+                className="m-5 sm:m-10 p-10 sm:p-10 bg-black border-2 border-blue-500 rounded-xl"
                 key={id}
               >
                 <Image src={image} alt="community" width={40} height={40} />
@@ -115,15 +115,15 @@ const Main = () => {
         </div>
       </div>
       {/* Box 2 */}
-      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 bg-blue-600 border-2 bg-fixed bg-center px-10 md:px-20">
-        <h1 className="text-4xl font-bold pb-3">
+      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 bg-blue-600 border-2 bg-fixed bg-center px-5 sm:px-10 md:px-20">
+        <h1 className="text-3xl sm:text-4xl font-bold pb-3">
           Gaining knowledge from mistakes.
         </h1>
-        <h2 className="text-xl underline-offset-2 underline pb-3 font-mono">
+        <h2 className="sm:text-lg md:text-xl underline-offset-2 underline pb-3 font-mono">
           At Developer Abode, we are dedicated to fostering growth for all
           individuals associated with us.
         </h2>
-        <p className="font-serif text-white">
+        <p className="font-serif text-sm sm:text-base text-white">
           Developer Abode is a company that focuses on creating a better future
           by developing the present. We believe in empowering young people,
           particularly students, to become self-aware and discover new
@@ -140,7 +140,7 @@ const Main = () => {
           {Main2.map(({ title, image, description, link, linkTitle }, id) => {
             return (
               <div
-                className="m-10 p-10 bg-black border-2 border-blue-500 rounded-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7"
+                className="m-5 sm:m-10 p-10 bg-black border-2 border-blue-500 rounded-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7"
                 key={id}
               >
                 <Image src={image} alt={title} width={500} height={500} />
@@ -162,15 +162,15 @@ const Main = () => {
         </div>
       </div>
       {/* Box 3 */}
-      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 bg-blue-600 bg-fixed border-2 bg-center px-10 md:px-20">
-        <h1 className="text-4xl pb-3 font-bold">
+      <div className="flex flex-col text-center items-center justify-center h-1/3 py-24 bg-blue-600 bg-fixed border-2 bg-center px-5 sm:px-10 md:px-20">
+        <h1 className="text-3xl sm:text-4xl pb-3 font-bold">
           Todays work is foundation of tomorrow !
         </h1>
-        <h2 className="text-xl underline underline-offset-2 pb-3 font-mono">
+        <h2 className="sm:text-lg mdtext-xl underline underline-offset-2 pb-3 font-mono">
           Developer Abode is a grassroots organization that seeks to shape the
           future by investing in the present.
         </h2>
-        <p className="font-serif text-white">
+        <p className="font-serif text-sm sm:text-base text-white">
           Joining a student organization can help you acquire essential soft
           skills, such as communication, attitude, and work ethic, which are
           crucial for effective interactions with others. Not only will we
@@ -183,11 +183,11 @@ const Main = () => {
       </div>
       {/* Grid 3 */}
       <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1 xl:px-32 lg:px-20 md:px-10 page1">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row mx-20">
           {Main3.map(({ title, image, description }, id) => {
             return (
               <div
-                className="m-10 p-10 bg-black border-2 border-blue-500 rounded-xl"
+                className="p-10 my-10 bg-black border-2 border-blue-500 rounded-xl"
                 key={id}
               >
                 <Image src={image} alt="community" width={40} height={40} />
@@ -201,11 +201,11 @@ const Main = () => {
         </div>
       </div>
       {/* Box 4 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center justify-center h-1/2 py-24 border-t-2 border-x-2 bg-blue-600 bg-fixed bg-center px-10 sm:px-20 md:px-10 lg:px-20 xl:px-30">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center justify-center h-1/2 py-24 border-t-2 border-x-2 bg-blue-600 bg-fixed bg-center px-7 sm:px-20 md:px-10 lg:px-20 xl:px-30">
         <Image src="/footer1.jpg" alt="footer" height={500} width={500} />
         <div className="text-left font-mono lg:col-span-2">
-          <h3 className="text-base xl:text-lg">EXCITED TO WORK WITH US !</h3>
-          <h1 className="text-white text-3xl sm:text-4xl xl:text-5xl mt-3 mb-7 font-semibold">
+          <h3 className="xl:text-lg">EXCITED TO WORK WITH US !</h3>
+          <h1 className="text-white text-2xl sm:text-4xl xl:text-5xl mt-3 mb-7 font-semibold">
             We welcome the opportunity to connect with new individuals as we
             continue our journey of ongoing learning and enjoyment.
           </h1>

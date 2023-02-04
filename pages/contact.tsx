@@ -53,11 +53,11 @@ const Contact = () => {
         image={"page5"}
       />
       {/* Box 1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center justify-center h-1/2 py-16 border-2 bg-blue-600 bg-fixed bg-center px-10 sm:px-20 md:px-10 lg:px-20 xl:px-30">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-center justify-center h-1/2 py-16 border-2 bg-blue-600 bg-fixed bg-center px-7 sm:px-20 md:px-10 lg:px-20 xl:px-30">
         <Image src="/contact1.jpg" alt="contact" height={500} width={500} />
         <div className="text-left font-mono lg:col-span-2">
-          <h3 className="font-bold text-5xl">Contact Us</h3>
-          <h1 className="text-white text-justify text-2xl sm:text-3xl md:text-xl lg:text-2xl xl:text-3xl mt-3 mb-7 font-semibold">
+          <h3 className="font-bold text-4xl sm:text-5xl md:text-6xl">Contact Us</h3>
+          <h1 className="text-white text-xl sm:text-2xl md:text-xl lg:text-2xl xl:text-3xl mt-3 mb-7 font-semibold">
             We are always open to connect new people with us over this journey
             of endless learning and great joy!
           </h1>
@@ -65,6 +65,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-blue-600 text-black border-black bg-white hover:bg-black"
             >
               <BsLinkedin />
@@ -72,6 +73,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-blue-500 text-black border-black bg-white hover:bg-black"
             >
               <BsFacebook />
@@ -79,6 +81,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-pink-500 text-black border-black bg-white hover:bg-black"
             >
               <BsInstagram />
@@ -86,6 +89,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               className="border p-2 rounded-lg hover:border-white hover:text-blue-400 text-black border-black bg-white hover:bg-black"
             >
               <BsTwitter />
@@ -105,7 +109,7 @@ const Contact = () => {
       {/* Grid 1 */}
       <div className="flex flex-col text-left items-center justify-center py-32 bg-fixed bg-center bg-cover px-1 xl:px-32 lg:px-20 md:px-10 page5">
         {/* <div className="flex flex-col lg:flex-row"> */}
-        <div className="m-10 md:m-8 lg:m-10 p-10 bg-black border-2 border-blue-500 rounded-xl">
+        <div className="m-5 sm:m-10 md:m-8 lg:m-10 p-10 bg-black border-2 border-blue-500 rounded-xl">
           <h1 className="text-blue-500 text-3xl font-mono font-bold underline underline-offset-4 mb-5">
             Would You Like To Contact Us?
           </h1>
