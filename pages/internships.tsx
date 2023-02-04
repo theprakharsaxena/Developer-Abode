@@ -89,6 +89,14 @@ const Internships = () => {
                   width={200}
                 />
                 <p className="mb-5 text-white">Info &gt;</p>
+                <a
+                  href="https://form.jotform.com/230328041230035"
+                  className="hover:text-white p-3 text-lg rounded-md hover:bg-blue-500/30 text-blue-500 bg-white/30"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Apply Now
+                </a>
               </div>
             );
           })}
