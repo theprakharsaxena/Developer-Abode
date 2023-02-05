@@ -27,7 +27,7 @@ const About = () => {
             shape the future by nurturing the present. At Developer Abode, we
             believe in empowering youth, particularly students, with
             self-awareness and knowledge of technology and growth-rich fields.
-            Our dedication has led us to become an registered start-up with
+            Our dedication has led us to become an MSME registered start-up with
             a team of over 10 employees.
           </h1>
           <Link
@@ -54,7 +54,7 @@ const About = () => {
             promoting self-awareness and providing access to the vast world of
             technology and growth-oriented industries. We aim to bridge the gap
             between students and their industrial knowledge, bringing them
-            closer to their goals. We are an registered start-up, always
+            closer to their goals. We are an MSME registered start-up, always
             open to connecting with new individuals on our journey of continuous
             learning and joy.
           </p>

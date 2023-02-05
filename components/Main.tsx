@@ -128,7 +128,7 @@ const Main = () => {
           by developing the present. We believe in empowering young people,
           particularly students, to become self-aware and discover new
           opportunities in technology and growth-oriented fields. This belief
-          has led us to where we are today as a registered start-up with
+          has led us to where we are today as a MSME registered start-up with
           over 10 employees. Our company has held numerous webinars for over a
           decade, reaching an audience of more than 100 people and providing
           them with valuable services.
