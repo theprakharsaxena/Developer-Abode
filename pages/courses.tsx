@@ -95,12 +95,14 @@ const Courses = () => {
                   <p className="text-sm md:text-base text-white pb-3">
                     {description}
                   </p>
-                  <Link
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="underline underline-offset-8 text-white hover:text-blue-500 font-serif"
                     href="https://form.jotform.com/230381891853462"
                   >
                     Enroll Now
-                  </Link>
+                  </a>
                 </div>
               </div>
             );
