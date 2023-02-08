@@ -58,9 +58,9 @@ const courses1 = [
 const Courses = () => {
   return (
     <>
-    <Head>
-      <title>Developer Abode | Courses</title>
-    </Head>
+      <Head>
+        <title>Developer Abode | Courses</title>
+      </Head>
       <Hero
         heading={"Courses"}
         message={"Unleashing potential, driving success."}
@@ -83,13 +83,11 @@ const Courses = () => {
         <div className="flex flex-col">
           {courses1.map(({ title, image, description }, id) => {
             return (
-              <div className="m-5 sm:m-10 p-10 bg-black border-2 border-blue-500 rounded-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7" key={id}>
-                <Image
-                  src={image}
-                  alt="Javascript"
-                  width={400}
-                  height={400}
-                />
+              <div
+                className="m-5 sm:m-10 p-10 bg-black border-2 border-blue-500 rounded-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7"
+                key={id}
+              >
+                <Image src={image} alt="Javascript" width={400} height={400} />
                 <div className="lg:col-span-2 xl:col-span-3">
                   <h1 className="text-3xl pb-3 font-mono text-blue-500 font-bold">
                     {title} Developer
@@ -99,9 +97,9 @@ const Courses = () => {
                   </p>
                   <Link
                     className="underline underline-offset-8 text-white hover:text-blue-500 font-serif"
-                    href="/"
+                    href="https://form.jotform.com/230381891853462"
                   >
-                    Coming Soon...
+                    Enroll Now
                   </Link>
                 </div>
               </div>
