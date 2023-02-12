@@ -30,10 +30,8 @@ const NavbarData = [
   },
 ];
 
-
 const Navbar = () => {
-  
-  // const [active, setActive] = useState("Home")  
+  // const [active, setActive] = useState("Home")
   const [nav, setNav] = useState(false);
   const [color, setcolor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
@@ -74,9 +72,12 @@ const Navbar = () => {
             />
           </Link>
           <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-            {NavbarData.map(({link,title},id) => {
+            {NavbarData.map(({ link, title }, id) => {
               return (
-                <li key={id} className="m-4 hover:underline hover:underline-offset-8 font-mono hover:text-blue-500">
+                <li
+                  key={id}
+                  className="m-4 hover:underline hover:underline-offset-8 font-mono hover:text-blue-500"
+                >
                   <Link href={link}>{title}</Link>
                 </li>
               );
@@ -91,7 +92,7 @@ const Navbar = () => {
             {nav ? (
               <AiOutlineClose size={20} className="hover:text-blue-500" />
             ) : (
-              <AiOutlineMenu size={20} style={{ color: `${textColor}` }}/>
+              <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
             )}
           </div>
           {/* Mobile Menu */}
@@ -103,9 +104,12 @@ const Navbar = () => {
             }
           >
             <ul>
-              {NavbarData.map(({link,title},id) => {
+              {NavbarData.map(({ link, title }, id) => {
                 return (
-                  <li key={id} className="p-4 text-4xl hover:underline hover:underline-offset-8 font-mono hover:text-blue-500">
+                  <li
+                    key={id}
+                    className="p-4 text-4xl hover:underline hover:underline-offset-8 font-mono hover:text-blue-500"
+                  >
                     <Link href={link} onClick={handleNav}>
                       {title}
                     </Link>
@@ -115,10 +119,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      <p
-      style={{ backgroundColor: `${textColor}` }}
-      className="h-0.5">
-      </p>
+        <p style={{ backgroundColor: `${textColor}` }} className="h-0.5"></p>
       </div>
     </>
   );
