@@ -8,34 +8,42 @@ const Internships1 = [
   {
     title: "JavaScript",
     image: "/javascript.jpg",
+    link:"https://www.canva.com/design/DAFabaBKiK8/4On0vzjn-cZs0x1GI04suw/view?utm_content=DAFabaBKiK8&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
   },
   {
     title: "React",
     image: "/react.jpg",
+    link:"https://www.canva.com/design/DAFbjaKWuLk/fTiLWrTpy6qr4o-64JkiQg/view?utm_content=DAFbjaKWuLk&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
   },
   {
     title: "Angular",
     image: "/angular.jpg",
+    link:"/internships",
   },
   {
     title: "NextJs",
     image: "/nextjs.jpg",
+    link:"/internships",
   },
   {
     title: "VueJs",
     image: "/vuejs.jpg",
+    link:"/internships",
   },
   {
     title: "NodeJs",
     image: "/nodejs.jpg",
+    link:"/internships",
   },
   {
     title: "Flutter",
     image: "/flutter.jpg",
+    link:"https://www.canva.com/design/DAFbjf0VzfA/WR_QZuInZfliYO5urr5gYA/view?utm_content=DAFbjf0VzfA&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
   },
   {
     title: "React Native",
     image: "/reactnative.jpg",
+    link:"/internships",
   },
 ];
 
@@ -65,7 +73,7 @@ const Internships = () => {
       {/* Grid 1 */}
       <div className="flex flex-col text-left items-center justify-center bg-fixed bg-center bg-cover page2 py-32 px-1 sm:px-10 lg:px-7 xl:px-8 2xl:px-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {Internships1.map(({ title, image }, id) => {
+          {Internships1.map(({ title, image, link }, id) => {
             return (
               <div
                 className="m-5 sm:m-10 2xl:m-10 xl:m-8 lg:m-7 md:m-10 sm:p-9 md:p-10 p-10 bg-black border-2 border-blue-500 rounded-xl"
@@ -88,7 +96,9 @@ const Internships = () => {
                   height={200}
                   width={200}
                 />
-                <p className="mb-5 text-white">Info &gt;</p>
+                <div className="mb-5 text-white">
+                <a href={link} target="_blank" rel="noreferrer">Info &gt;</a>
+                </div>
                 <a
                   href="https://form.jotform.com/230328041230035"
                   className="hover:text-white p-3 text-lg rounded-md hover:bg-blue-500/30 text-blue-500 bg-white/30"
