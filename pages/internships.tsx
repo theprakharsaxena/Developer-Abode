@@ -33,7 +33,7 @@ const Internships1 = [
   {
     title: "NodeJs",
     image: "/nodejs.jpg",
-    link:"/internships",
+    link:"https://www.canva.com/design/DAFb0ng7N-M/XMARqLFuovooSBm3a59gdA/view?utm_content=DAFb0ng7N-M&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
   },
   {
     title: "Flutter",
